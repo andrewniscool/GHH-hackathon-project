@@ -32,17 +32,29 @@ body {
 
 .location-name {
     font-size: 40px;
+    color: rgb(229, 123, 31);
 
 }
 
 .time {
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 200px;
     margin-top: 50px;
+    margin-bottom: 20px;
     text-align: center;
-    color: rgb(168, 87, 16);
+    color: rgb(144, 79, 22);
 
 }
+
+.status {
+    font-weight: bold;
+    font-size: large;
+}
+
+.imgs {
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
 }
