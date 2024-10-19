@@ -1,11 +1,13 @@
-#ohill {
-    background-color: lightblue;
-}
 
-#newcomb {
-    background-color: lightgreen;
-}
-
-#runk {
+.containers {
     background-color: lightgray;
+    text-align: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 100px;
+    font-family: Helvetica;
+    font-weight: bold;
 }
