@@ -3,8 +3,8 @@ function showCurrentTime() {
     const currentDateTimeUTC = new Date();
   
     // Display the current UTC date and time
-    console.log("Current UTC Time:");
-    console.log(currentDateTimeUTC.toUTCString());
+    // console.log("Current UTC Time:");
+    // console.log(currentDateTimeUTC.toUTCString());
   
     // Convert and display the time in Eastern Time (EST/EDT)
     convertToEasternTime(currentDateTimeUTC);
@@ -19,7 +19,7 @@ function showCurrentTime() {
       day: '2-digit',
       hour: '2-digit',
       minute: '2-digit',
-      hour12: false // Use 24-hour format (military time)
+      hour12: true // Use 24-hour format (military time)
     };
   
     const easternTime = utcDate.toLocaleString('en-US', options);
