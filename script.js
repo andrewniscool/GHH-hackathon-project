@@ -44,5 +44,5 @@ function showCurrentTime() {
   }
   
   // Example usage
-  convertToEasternTime('2024-10-19T12:34:56.789Z');
+  convertToEasternTime(showCurrentTime());
   
