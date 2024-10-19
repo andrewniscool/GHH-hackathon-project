@@ -34,3 +34,13 @@ body {
 .location-name {
     font-size: 30px;
 }
+
+.time {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(168, 87, 16);
+}
