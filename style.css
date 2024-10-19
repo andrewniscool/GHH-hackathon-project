@@ -60,3 +60,13 @@ body {
     text-align: center;
     margin-left: 20px;
 }
+
+.logo {
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 30%;
+}
