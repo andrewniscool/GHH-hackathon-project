@@ -29,5 +29,10 @@ function showCurrentTime() {
   }
   
   // Call the function to show the current UTC time and Eastern Time
-  showCurrentTime();
-  
+  function startClock() {
+    showCurrentTime(); // Initial call to display time immediately
+    setInterval(showCurrentTime, 600); // Update every minute (60000 milliseconds)
+}
+
+// Start the clock when the page loads
+startClock();
