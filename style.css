@@ -2,12 +2,11 @@
 .containers {
     background-color: rgb(230, 230, 230);
     text-align: center;
-    justify-content: center;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    padding: 100px;
+    justify-content: center; 
+    width: 50%; 
+    display: grid;
+    margin: 20px auto; 
+    padding: 50px;
     font-family: Helvetica;
     font-weight: bold;
     border-radius: 25px;
@@ -16,8 +15,8 @@
 #title {
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 50px;
-    margin-top: 200px;
+    font-size: 70px;
+    margin-top: 20px;
     margin-top: 50px;
     text-align: center;
     color: rgb(229, 123, 31);
@@ -32,5 +31,5 @@ body {
 }
 
 .location-name {
-    font-size: 30px;
+    font-size: 40px;
 }
