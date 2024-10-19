@@ -50,8 +50,38 @@ function isOpen(diningHall){
     }
   }
 }
-const currentDate = new Date();
-console.log(currentDate.getHours() * 60 + currentDate.getMinutes());
-console.log(isOpen("ohill"));
-console.log(isOpen("newcomb"));
-console.log(isOpen("runk"));
+
+function ohillStatus() {
+    const ohillStatus = document.querySelector('.ohill-status');
+    if (isOpen("ohill")) {
+        ohillStatus.textContent = `Open`;
+    } else {
+        ohillStatus.textContent = `Closed`;
+    }
+   
+}
+
+function newcombStatus() {
+    const newcombStatus = document.querySelector('.newcomb-status');
+    if (isOpen("newcomb")) {
+        newcombStatus.textContent = `Open`;
+    } else {
+        newcombStatus.textContent = `Closed`;
+    }
+   
+}
+
+function runkStatus() {
+    const runkStatus = document.querySelector('.runk-status');
+    if (isOpen("runk")) {
+        runkStatus.textContent = `Open`;
+    } else {
+        runkStatus.textContent = `Closed`;
+    }
+   
+}
+
+ohillStatus();
+newcombStatus();
+runkStatus();
+
