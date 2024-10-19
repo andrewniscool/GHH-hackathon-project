@@ -1,3 +1,4 @@
+// Function to get the current time in Eastern Time (EST/EDT)
 function showCurrentTime() {
     // Create a new Date object for the current time in UTC
     const currentDateTimeUTC = new Date();
